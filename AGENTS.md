@@ -1,40 +1,42 @@
 # Agent Instructions
 
-This project uses **bd** (beads) for issue tracking. Run `bd onboard` to get started.
+This is an idea repository — no code, just idea tracking via GitHub issues and
+local markdown files. Use **bd** (beads) for task tracking.
 
-## Quick Reference
+## Project Context
 
-```bash
-bd ready              # Find available work
-bd show <id>          # View issue details
-bd update <id> --status in_progress  # Claim work
-bd close <id>         # Complete work
-bd sync               # Sync with git
+Ideas are tracked in two places:
+
+- **GitHub issues** — published ideas with research, examples, and analysis
+- **`.dev/issues/`** — local drafts and research threads
+
+## Working on Ideas
+
+When the user describes a new idea:
+
+1. Research whether similar projects/proposals exist
+2. Draft the idea as a local issue file in `.dev/issues/`
+3. Let the user review before publishing to GitHub
+4. After posting, delete the local draft
+
+When researching, use `searchnet:broad-search` for discovery questions and cite
+sources in the GitHub issue.
+
+## Local Issue Threads
+
+Local issue threads are markdown files for tracking ideas and research that
+aren't published on GitHub.
+
+### Naming Pattern
+
+```text
+issue-{number}.{kebab-case-title}.md
 ```
 
-## Landing the Plane (Session Completion)
+Examples:
+- `issue-53.zellij-layout-sharing-platform.md`
+- `issue-51.vim-learning-game.md`
 
-**When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.
+### Location
 
-**MANDATORY WORKFLOW:**
-
-1. **File issues for remaining work** - Create issues for anything that needs follow-up
-2. **Run quality gates** (if code changed) - Tests, linters, builds
-3. **Update issue status** - Close finished work, update in-progress items
-4. **PUSH TO REMOTE** - This is MANDATORY:
-   ```bash
-   git pull --rebase
-   bd sync
-   git push
-   git status  # MUST show "up to date with origin"
-   ```
-5. **Clean up** - Clear stashes, prune remote branches
-6. **Verify** - All changes committed AND pushed
-7. **Hand off** - Provide context for next session
-
-**CRITICAL RULES:**
-- Work is NOT complete until `git push` succeeds
-- NEVER stop before pushing - that leaves work stranded locally
-- NEVER say "ready to push when you are" - YOU must push
-- If push fails, resolve and retry until it succeeds
-
+Store in `.dev/issues/` directory.
