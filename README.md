@@ -43,7 +43,7 @@ resolved, merged into other projects, or dropped.
 | 31 | Automatic video playback speed adjustment | Open |
 | 32 | Generate game-playing AI model | Open |
 | 33 | Translated IM/chat apps | Open |
-| 34 | Quick reading model | Open |
+| 34 | Structured article summarizer with expandable outline UI | Open |
 | 35 | Ditto with Tauri | Closed |
 | 36 | Extension for YouTube history filter | Open |
 | 37 | Automatic playback speed adjustment | Open |
@@ -53,11 +53,11 @@ resolved, merged into other projects, or dropped.
 | 41 | Chrome extension to create markdown link with referenced content | Closed |
 | 42 | Mac window search | Open |
 | 43 | Better vim game | Closed |
-| 44 | Chat-bot QoL | Closed |
+| 44 | Chat-bot QoL (reorderable question queue) | Closed |
 | 45 | Chrome extension: add YouTube video to NotebookLM | Open |
-| 46 | Auto-game | Open |
-| 47 | Bot for chat | Open |
-| 48 | Summary for text-based webpages | Open |
+| 46 | LLM-automated daily game tasks — auto-login, auto-collect rewards | Open |
+| 47 | Realtime voice LLM with installable app/tool integrations | Open |
+| 48 | Webpage text extraction and summarization | Open |
 | 49 | Window title based switch | Open |
 | 50 | Cross-device noise cancellation | Open |
 | 51 | Vim learning game with puzzle and rhythm modes | Closed |
@@ -69,8 +69,11 @@ resolved, merged into other projects, or dropped.
 | 57 | Multi-microphone sound source localization and track separation | Open |
 | 58 | LLM-assisted coding interview — 20min live session with coding agent | Open |
 | 59 | AI-powered chip die shot and circuit board analyzer | Open |
-| 60 | MCP-Anything: make Chrome extensions agent-native | Open |
+| 60 | Enable LLM agents to use existing Chrome extensions | Open |
 | 61 | Faster human-to-agent communication — voice input is a bottleneck | Open |
+| 64 | .note — distributed hierarchical note system for agent users | Open |
+| 65 | Modern police reporting app — why is this still so outdated? | Open |
+| 66 | Open-source church website platform — call for believing developers | Open |
 
 ## Contribute
 

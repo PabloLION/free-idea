@@ -10,6 +10,15 @@ Ideas are tracked in two places:
 - **GitHub issues** — published ideas with research, examples, and analysis
 - **`.dev/issues/`** — local drafts and research threads
 
+## GitHub Actions Require Confirmation
+
+Never create, close, edit, or comment on GitHub issues without explicit user
+confirmation first. You may batch multiple actions into one confirmation, but
+the user must verbally approve before any GitHub write operation executes.
+
+This applies to: `gh issue create`, `gh issue close`, `gh issue edit`,
+`gh issue comment`, `gh pr create`, and any other GitHub-facing write.
+
 ## Working on Ideas
 
 When the user describes a new idea:
