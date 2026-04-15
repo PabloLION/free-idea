@@ -74,6 +74,7 @@ resolved, merged into other projects, or dropped.
 | 64 | .note — distributed hierarchical note system for agent users | Open |
 | 65 | Modern police reporting app — why is this still so outdated? | Open |
 | 66 | Open-source church website platform — call for believing developers | Open |
+| 67 | Agent extensions — unified extension system with dependencies for LLM agent harnesses | Open |
 
 ## Contribute
 
